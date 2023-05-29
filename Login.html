@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Customer Registration and Login</title>
+	<link rel="stylesheet" href="Login.css">
+	
+
+</head>
+<body>
+	<div class="container">
+		<h1>Mostafa Khorshed Task</h1>
+  <a href="#" id="register-link">Register</a>
+  <a href="#" id="login-link">Login</a>
+
+		<div id="register-form">
+			<h2>registering a new customer</h2>
+			<form>
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name" required>
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email" required>
+				<label for="password">Password:</label>
+				<input type="password" id="password" name="password" required>
+				<button type="submit" id="register-btn">Register</button>
+			</form>
+		</div>
+		<div id="login-form">
+			<h2>logging an existing customer</h2>
+			<form>
+				<label for="login-email">User Name:</label>
+				<input type="text" id="loginemail" name="loginemail" required>
+				<label for="login-password">Password:</label>
+				<input type="password" id="loginpassword" name="loginpassword" required>
+				<button type="submit" id="login-btn">Login</button>
+			</form>
+		</div>
+	</div>
+	<script src="Login.js"></script>
+
+</body>
+</html>
